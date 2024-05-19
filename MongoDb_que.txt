@@ -1,0 +1,26 @@
+- Managing Databases and collections
+
+1 - All Databases show
+
+show dbs;
+
+2 - Create new Database
+
+use <database-name>;
+
+3 - Delete Database
+
+db.dropDatabase();
+
+4 - All Collection show
+
+show collections;
+
+5 - Create new collection
+
+db.createCollection('<collection-name>');
+
+6 - Delete Collection
+
+db.<collection-name>.drop();
+------------------------------------------------
